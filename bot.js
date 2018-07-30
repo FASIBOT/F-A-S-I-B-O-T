@@ -6,8 +6,14 @@ console.log('I am ready!');
 });
 
 client.on('message', message =>{
-  if (message.content === '#'){
-  message.reply('FILLER');
+  if (message.content === '#creator'){
+  message.reply('`Benji Celeven`');
+  }
+});
+
+client.on('message', message =>{
+  if (message.content === '#creatortwitch'){
+  message.reply('`https://www.twitch.tv/benjiceleven');
   }
 });
 
